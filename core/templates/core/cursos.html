@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+{%load static%}
+<html>
+<head>
+	<title>Treinamento</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Starter Template for Bootstrap</title>
+
+  </head>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Atividade Modulo 1</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="{% url 'home'%}">Home</a></li>
+            <li class="active"><a href="{% url 'cursos'%}">Cursos</a></li>
+            <li><a href="{% url 'contato'%}">Contatos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+              </tr>
+              <tr>
+                <td>JQuery</td>
+              </tr>
+              <tr>
+                <td>Django</td>
+              </tr>
+              <tr>
+                <td>Arduino</td>
+              </tr>
+              <tr>
+                <td>C#</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+              </tr>
+            </tbody>
+          </table> <!-- Tabela -->
+      </div>
+    </div>
+</body>
+</html>
